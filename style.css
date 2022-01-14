@@ -43,18 +43,21 @@ h4
 }
 #home_introduce_jumbotron_dev
 {
+    background-color: white;
     border-radius:30px;
     color:#000000;
     box-shadow: 10px 10px 20px #00000040;
 }
 #home_introduce_jumbotron_aos
 {
+    background-color: white;
     border-radius:30px;
     color:#000000;
     box-shadow: 10px 10px 20px #00000040;
 }
 #home_introduce_jumbotron_ios
 {
+    background-color: white;
     border-radius:30px;
     color:#000000;
     box-shadow: 10px 10px 20px #00000040;
