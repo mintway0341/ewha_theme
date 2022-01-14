@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <title>이화여자대학교 카카오톡 테마</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+
+<body bg>
+    <script src = "script.js"></script>
+    <nav id = "navbar_custom" class="navbar navbar-default">
+        <div class = "container">
+            <div class="navbar-header">
+                <a id = "navbar_logo" href="index.html" class="navbar-brand">
+                    <!-- <span class = "glyphicon glyphicon-console" aria-hidden="true"></span> -->
+                    이화여자대학교 카카오톡 테마</a>
+            </div>
+            <div class = "collapse navbar-collapse" id = "bs-example-navbar-collapse-1">
+                <!-- left -->
+                <ul class = "nav navbar-nav" id="test">
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class = "container">
+        <div id = "home_introduce_jumbotron_dev" class = "jumbotron">
+            <div class = "container justify-content-center align-self-center">
+                <h1><span aria-hidden = "true"></span>
+                    <i class="fa fa-code"></i> Developer</h1>
+                <hr class = "line_1">
+                <h3>
+                    강유민
+                </h3>
+                <h4>
+                    - 고려대학교 건축학과 21학번
+                </h4>
+                <h4>
+                    - 과학영재학교 경기과학고등학교 36기
+                </h4>
+                <h4>
+                    - 이대 친구가 하도 졸라서 만들었어요,,😂
+                </h4>
+                <button id = "button_instagram" type="button" class="btn btn-primary" onclick = "visit_instagram()" onmouseover = "change_color_1_instagram()" onmouseout = "change_color_2_instagram()">
+                    <i class="fa fa-instagram"></i>
+                </button>
+                <button id = "button_github" type="button" class="btn btn-primary" onclick = "visit_github()" onmouseover = "change_color_1_github()" onmouseout = "change_color_2_github()">
+                    <i class="fa fa-github"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class = "container">
+        <div id = "home_introduce_jumbotron_aos" class = "jumbotron">
+            <div class = "container justify-content-center align-self-center">
+                <h1><span aria-hidden = "true"></span>
+                    <i class="fa fa-android"></i> Android</h1>
+                <hr class = "line_1">
+                <button id = "button_download_aos" type="button" class="btn btn-primary" onclick = "download_aos()" onmouseover = "change_color_1_aos()" onmouseout = "change_color_2_aos()">Download (준비 중)</button>
+            </div>
+        </div>
+    </div>
+    <div class = "container">
+        <div id = "home_introduce_jumbotron_ios" class = "jumbotron">
+            <div class = "container justify-content-center align-self-center">
+                <h1><span aria-hidden = "true"></span>
+                    <i class="fa fa-apple"></i> iOS</h1>
+                <hr class = "line_1">
+                <button id = "button_download_ios" type="button" class="btn btn-primary" onclick = "download_ios()" onmouseover = "change_color_1_ios()" onmouseout = "change_color_2_ios()">Download (준비 중)</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
